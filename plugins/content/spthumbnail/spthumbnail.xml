@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+        <name>PLG_SPTHUMBNAIL</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>October 2012</creationDate>
+	<author>SP CYEND</author>
+	<authorEmail>info@cyend.com</authorEmail>
+	<authorUrl>http://www.cyend.com</authorUrl>
+	<copyright>SP CYEND - All rights reserved.</copyright>
+        <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<!--  The version string is recorded in the components table -->
+	<version>3.0.1</version>
+        <!-- Changes: -->
+        <!-- 1. Allow more classes -->
+        <!-- 2. Exit if empty article -->
+        <!-- 1.0.3 onContentPrepare declaration change -->
+        <!-- 3.0.1 Joomla 2.5 compatible -->
+        <description>PLG_SPTHUMBNAIL_XML_DESCRIPTION</description>
+
+        <files>
+            <filename plugin="spthumbnail">spthumbnail.php</filename>
+            <filename>gpl-3.0.txt</filename>
+            <filename>index.html</filename>
+        </files>
+        <languages folder="language/en-GB">
+            <language tag="en-GB">en-GB.plg_content_spthumbnail.ini</language>
+            <language tag="en-GB">en-GB.plg_content_spthumbnail.sys.ini</language>
+	</languages>
+
+        <params>
+            <param name="thumbnails_for" type="list" default="0" label="PLG_SPTHUMBNAIL_FOR" description="PLG_SPTHUMBNAIL_FOR_DESCRIPTION">
+                <option value="0">PLG_SPTHUMBNAIL_ONLY_CLASS</option>
+                <option value="1">PLG_SPTHUMBNAIL_EXCEPT_CLASS</option>
+                <option value="2">PLG_SPTHUMBNAIL_ALL_IMAGES</option>
+            </param>
+            <param name="class" type="text" default="" label="PLG_SPTHUMBNAIL_CLASS" description="PLG_SPTHUMBNAIL_CLASS_DESCRIPTION" />
+	</params>
+
+        <config>
+            <fields name="params">
+                <fieldset name="basic">
+                    <field name="thumbnails_for" type="list" default="0" label="PLG_SPTHUMBNAIL_FOR" description="PLG_SPTHUMBNAIL_FOR_DESCRIPTION">
+                        <option value="0">PLG_SPTHUMBNAIL_ONLY_CLASS</option>
+                        <option value="1">PLG_SPTHUMBNAIL_EXCEPT_CLASS</option>
+                        <option value="2">PLG_SPTHUMBNAIL_ALL_IMAGES</option>
+                    </field>
+                    <field name="class" type="text" default="" label="PLG_SPTHUMBNAIL_CLASS" description="PLG_SPTHUMBNAIL_CLASS_DESCRIPTION" />
+                </fieldset>
+            </fields>
+	</config>
+</extension>
