@@ -528,9 +528,9 @@ a:focus {
 	clear: both;
 }
 .container-fluid {
-	width: 90%;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-right: 20px;
+	padding-left: 20px;
+	*zoom: 1;
 }
 .container-fluid:before,
 .container-fluid:after {
@@ -6992,8 +6992,6 @@ body.site.fluid {
 	font-size: 40px;
 	line-height: 48px;
 	font-weight: bold;
-	color: #fffffe;
-	
 }
 .brand {
 	color: #004466;
@@ -7008,10 +7006,6 @@ body.site.fluid {
 }
 .header {
 	margin-bottom: 10px;
-	background-color: #f0eeaa;
-	background-image: url("/ldmu.lviv.ua/images/image/logo_01.jpg") ;
-    background-repeat: no-repeat;
-	background-size: 100% 100%;	
 }
 .header .finder {
 	margin-top: 14px;
@@ -7329,7 +7323,6 @@ figcaption {
 		-moz-border-radius: 0;
 		border-radius: 0;
 		margin-right: 0;
-		color: #ff5522;
 	}
 	.header .nav-pills > li:first-child > a {
 		-webkit-border-radius: 4px 4px 0 0;
