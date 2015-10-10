@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@font-face {
+	font-family: "modern_pictogramsnormal";
+	font-style: normal;
+	font-weight: normal;
+	src: url('modernpics-webfont.eot') format("embedded-opentype"), url('modernpics-webfont.woff') format("woff"), url('modernpics-webfont.ttf') format("truetype"), url('modernpics-webfont.svg') format("svg");
+}
+

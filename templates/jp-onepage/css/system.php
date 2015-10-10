@@ -1,0 +1,1 @@
+<?php $app=JFactory::getApplication();$option5=$app->input->getCmd('option','');$view5=$app->input->getCmd('view','');$layout5=$app->input->getCmd('layout','');$menu5=$app->getMenu();if(($menu5->getActive()==$menu5->getDefault())||($view5=='featured')) ?>
