@@ -1,0 +1,996 @@
+{
+    "profile": "default",
+    "site_name": "",
+    "site_slogan": "",
+    "footer_copyright": "Copyright \u00a9 LDMU-2015\r\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+    "standard_logo": "",
+    "retina_logo": "",
+    "footer_gototop": "1",
+    "footer_logo": "0",
+    "body_font": {
+        "type": "none",
+        "family": {
+            "standard": "Arial",
+            "googlefonts": "",
+            "fontdeck": ""
+        },
+        "size": "14",
+        "font_line_height": "30"
+    },
+    "menu_font": {
+        "type": "standard",
+        "family": {
+            "standard": "Helvetica",
+            "googlefonts": "Cherry Swash:400",
+            "fontdeck": ""
+        },
+        "size": "23",
+        "font_line_height": "36"
+    },
+    "h1_font": {
+        "type": "none",
+        "family": {
+            "standard": "Arial",
+            "googlefonts": "",
+            "fontdeck": ""
+        },
+        "size": "14",
+        "font_line_height": "30"
+    },
+    "h2_font": {
+        "type": "none",
+        "family": {
+            "standard": "Arial",
+            "googlefonts": "",
+            "fontdeck": ""
+        },
+        "size": "14",
+        "font_line_height": "30"
+    },
+    "h3_font": {
+        "type": "none",
+        "family": {
+            "standard": "Arial",
+            "googlefonts": "",
+            "fontdeck": ""
+        },
+        "size": "14",
+        "font_line_height": "30"
+    },
+    "h4_font": {
+        "type": "none",
+        "family": {
+            "standard": "Arial",
+            "googlefonts": "",
+            "fontdeck": ""
+        },
+        "size": "14",
+        "font_line_height": "30"
+    },
+    "h5_font": {
+        "type": "none",
+        "family": {
+            "standard": "Arial",
+            "googlefonts": "",
+            "fontdeck": ""
+        },
+        "size": "14",
+        "font_line_height": "30"
+    },
+    "h6_font": {
+        "type": "none",
+        "family": {
+            "standard": "Arial",
+            "googlefonts": "",
+            "fontdeck": ""
+        },
+        "size": "14",
+        "font_line_height": "30"
+    },
+    "layout": [
+        {
+            "type": "row",
+            "name": "Header",
+            "customClass": "zo2-sticky",
+            "id": "zo2-header",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "header-logo",
+                    "position": "header-logo",
+                    "span": 1,
+                    "offset": 0,
+                    "customClass": "col-sm-12 col-xs-12 mobile-logo",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "mega-menu",
+                    "position": "mega-menu",
+                    "span": 11,
+                    "offset": 0,
+                    "customClass": "col-sm-12 col-xs-12 mobile-menu",
+                    "style": "zo2_menu",
+                    "id": "sosial-top",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "canvas",
+            "customClass": "",
+            "id": "",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "canvasmenu",
+                    "type": "col",
+                    "name": "canvas-menu",
+                    "position": "canvas-menu",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": false,
+                        "md": false,
+                        "lg": false
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "search",
+            "customClass": "",
+            "id": "",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-0",
+                    "position": "position-0",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "breadcrumb",
+            "customClass": "",
+            "id": "breadcrumb",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-2",
+                    "position": "position-2",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "Parallax",
+            "customClass": "full-width",
+            "id": "parallax",
+            "fullwidth": true,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-12",
+                    "position": "position-12",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "full-width",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "greywrap",
+            "customClass": "",
+            "id": "greywrap",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-13",
+                    "position": "position-13",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-14",
+                    "position": "position-14",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-15",
+                    "position": "position-15",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "a little",
+            "customClass": "",
+            "id": "a-little",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-16",
+                    "position": "position-16",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "parallax-2",
+            "customClass": "full-width",
+            "id": "parallax-2",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-17",
+                    "position": "position-17",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_menu",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "sevices",
+            "customClass": "",
+            "id": "sevices",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-7",
+                    "position": "position-7",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-8",
+                    "position": "position-8",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "right",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "",
+                    "type": "col",
+                    "name": "message",
+                    "position": "message",
+                    "span": 6,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": [
+                        {
+                            "type": "row",
+                            "name": "Component",
+                            "customClass": "",
+                            "id": "component",
+                            "fullwidth": false,
+                            "visibility": {
+                                "xs": true,
+                                "sm": true,
+                                "md": true,
+                                "lg": true
+                            },
+                            "children": [
+                                {
+                                    "jdoc": "",
+                                    "type": "col",
+                                    "name": "component",
+                                    "position": "component",
+                                    "span": 12,
+                                    "offset": 0,
+                                    "customClass": "",
+                                    "style": "zo2_xhtml",
+                                    "id": "",
+                                    "visibility": {
+                                        "xs": true,
+                                        "sm": true,
+                                        "md": true,
+                                        "lg": true
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "parallax-3",
+            "customClass": "full-width",
+            "id": "parallax-3",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-19",
+                    "position": "position-19",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "meet out",
+            "customClass": "",
+            "id": "meet-out",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-18",
+                    "position": "position-18",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "col-sm-12 col-xs-12",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "we are hiring",
+            "customClass": "",
+            "id": "we-are-hiring",
+            "fullwidth": true,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "slide",
+                    "position": "slide",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "parallax-4",
+            "customClass": "full-width",
+            "id": "parallax-4",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-20",
+                    "position": "position-20",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "we create",
+            "customClass": "",
+            "id": "we-create",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-21",
+                    "position": "position-21",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "parallax-5",
+            "customClass": "full-width",
+            "id": "parallax-5",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-22",
+                    "position": "position-22",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "we are",
+            "customClass": "",
+            "id": "we-are",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-25",
+                    "position": "position-25",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "parallax-6",
+            "customClass": "full-width",
+            "id": "parallax-6",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-23",
+                    "position": "position-23",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "thanh for",
+            "customClass": "",
+            "id": "thanh-for",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-24",
+                    "position": "position-24",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "customhtml",
+            "customClass": "",
+            "id": "",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-9",
+                    "position": "position-9",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-10",
+                    "position": "position-10",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position-11",
+                    "position": "position-11",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "Footer",
+            "customClass": "",
+            "id": "zo2-footer",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "footer-copyright",
+                    "position": "footer-copyright",
+                    "span": 12,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "theme": {
+        "name": "default",
+        "css": "default",
+        "less": "default",
+        "boxed": "0",
+        "background": "",
+        "header": "#ffffff",
+        "header_top": "",
+        "text": "",
+        "link": "",
+        "link_hover": "",
+        "bottom1": "",
+        "bottom2": "",
+        "footer": "",
+        "bg_image": "",
+        "bg_pattern": "templates\\zo2_shield\\assets\\zo2\\images\\background-patterns\/pattern13_black.png"
+    },
+    "menu_hover_type": "hover",
+    "menu_animation": "zoom",
+    "menu_duration": "300",
+    "menu_type": "mainmenu",
+    "menu_config": {
+        "mainmenu": {
+            "item-101": {
+                "submenu": {
+                    "rows": [
+                        [
+                            {
+                                "item": 107,
+                                "width": 12
+                            }
+                        ]
+                    ]
+                }
+            },
+            "item-109": {
+                "submenu": {
+                    "rows": [
+                        [
+                            {
+                                "item": 141,
+                                "width": 12
+                            }
+                        ]
+                    ]
+                }
+            },
+            "item-110": {
+                "submenu": {
+                    "rows": [
+                        [
+                            {
+                                "item": 152,
+                                "width": 12
+                            }
+                        ]
+                    ]
+                }
+            },
+            "item-194": {
+                "submenu": {
+                    "rows": [
+                        [
+                            {
+                                "item": 138,
+                                "width": 12
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    },
+    "enable_rtl": "1",
+    "component_area": "0",
+    "non_responsive_layout": "0",
+    "enable_style_switcher": "0",
+    "enable_sticky_menu": "1",
+    "tracking_code": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+    "combine_css": "0",
+    "combine_js": "0",
+    "development_mode": "1",
+    "template": "zo2_shield",
+    "name": "default"
+}

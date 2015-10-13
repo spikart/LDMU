@@ -1,0 +1,32 @@
+.zt_parallax_wrap {
+  .video-bg {
+    //background: url('http://192.168.1.6/joomla3.3/images/Desert.jpg') center center;
+    background-size: cover;
+
+    position:relative;
+    overflow:hidden;
+    z-index:1;
+    .vid-overlay {
+      //background: url('+n.videoposter+') center center;
+
+
+
+
+      position:absolute;
+      width:100%;
+      height:100%;
+      top:0;
+      left:0;
+      z-index:-2;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+    }
+    iframe {
+
+
+      position:absolute;
+      z-index:-10;
+    }
+  }
+
+}

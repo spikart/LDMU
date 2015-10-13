@@ -1,0 +1,22 @@
+[
+    {
+        "name": "default",
+        "default": true,
+        "css": "default",
+        "less": "default",
+        "color": "",
+        "thumbnail": "/assets/zo2/images/presets/default.jpg",
+        "variables": {
+            "background": "",
+            "header": "",
+            "header_top": "",
+            "link": "",
+            "link_hover": "",
+            "text": "",
+            "bottom1": "",
+            "bottom2": "",
+            "footer": "",
+            "extra": ""
+        }
+    }
+]

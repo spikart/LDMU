@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Module ZT Parallax</name>
+	<author>ZooTemplate</author>
+	<creationDate>Mar, 2014</creationDate>
+    <copyright>Copyright (C) 2008 - 2014 http://www.ZooTemplate.com. All rights reserved.</copyright>
+    <license>GNU/GPL</license>
+    <authorEmail>support@ZooTemplate.com</authorEmail>
+    <authorUrl>www.ZooTemplate.com</authorUrl>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.0</version>
+	<description>
+	<![CDATA[
+	
+	]]>
+	</description>
+	<files>
+		<filename module="mod_zt_parallax">mod_zt_parallax.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>admin</folder>
+		<folder>language</folder>
+		<folder>assets</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_zt_parallax.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_zt_parallax.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_zt_parallax/admin/elements">
+			<fieldset name="basic">
+                <field name="asset" type="asset" path="modules/mod_zt_parallax/admin/assets/"></field>
+                <field type="list" name="background_type" class="zt-field" default="image" label="Background Type" description="MOD_ZT_PARALLAX_USE_VIDEO_DESC">
+                    <option value="image">Image</option>
+                    <option value="upload">Custom</option>
+                    <option value="vimeo">Vimeo</option>
+                    <option value="youtube">Youtube</option>
+                </field>
+                <field type="spacer" name="youtube" label="&lt;b&gt;Option Youtube Video&lt;/b&gt;" />
+                <field type="spacer" name="upload" label="&lt;b&gt;Option Internal Video&lt;/b&gt;" />
+                <field type="spacer" name="vimeo" label="&lt;b&gt;Option Vimeo Video&lt;/b&gt;" />
+
+                <field type="text" name="video_id" class="zt-field background_video" label="Video ID" description="MOD_ZT_PARALLAX_BGR_VIDEO_DESC"></field>
+
+                <field name="link_video_uploadV_mp4" type="text" default="http://joomlaextension.zoodemo.com/j3x/images/steven.mp4" class="" label="Video Link mp4" description="Insert your video link video .mp4. Supported to run MP4- video format on the multiple browsers: Internet Explorer, Firefox, Chrome, Safaris. Not support on Opera."></field>
+                <field name="link_video_uploadV_webm" type="text" default="http://joomlaextension.zoodemo.com/j3x/images/steven.webm" class="" label="Video Link webm" description="Insert your video link video.webm. Supported to run MP4- video format on the multiple browsers: Chrome, Firefox, Opera. Not support on Internet Explorer, Safari."></field>
+
+
+                <field name="mute" type="list" default="true" class="" label="MOD_ZT_MUTE" description="MOD_ZT_MUTE_DESC">
+                    <option value="true">JMUTE</option>
+                    <option value="false">JUNMUTE</option>
+                </field>
+
+                <field name="showControls" type="list" default="false" class="" label="MOD_ZT_SHOW_CONTROLS" description="MOD_ZT_SHOW_CONTROLS_DESC">
+                    <option value="true">JSHOW</option>
+                    <option value="false">JHIDE</option>
+                </field>
+
+                <field name="quality" type="list" default="default" class="" label="MOD_ZT_QUALITY" description="MOD_ZT_QUALITY_DESC">
+                    <option value="default">JDEFAULT</option>
+                    <option value="small">JSMALL</option>
+                    <option value="medium">JMEDIUM</option>
+                    <option value="large">JLARGE</option>
+                    <option value="hd720">JHD720</option>
+                    <option value="hd1080">JHD1080</option>
+                    <option value="highres">JHIGHRES</option>
+                </field>
+
+                <field name="opacity" type="text" default="1" class="" label="MOD_ZT_OPACITY" description="MOD_ZT_OPACITY_DESC"></field>
+
+
+                <field name="loop" type="list" default="true" class="" label="MOD_ZT_LOOP" description="MOD_ZT_LOOP_DESC">
+                    <option value="true">JTRUE</option>
+                    <option value="false">JFALSE</option>
+                </field>
+
+
+
+                <field name="ratio" type="list" default="true" class="" label="MOD_ZT_RATIO" description="MOD_ZT_RATIO_DESC">
+                    <option value="16/9">16/9</option>
+                    <option value="4/3">4/3</option>
+                </field>
+
+
+                <field type="media" name="image_poster_uploadV" class="zt-field ztmedia" label="Select Image Poster" description="Select the image poster (only for upload video)"></field>
+
+                <field name="overlay_color_uploadV" type="color" default="#000000"
+                       label="Overlay Color"
+                       description="Picked Overlay Color for background image or video upload" />
+
+
+                <field name="width_uploadV" type="text" default="1288" class="" label="Video Width" description="Insert your width video(number).Don't include 'px' in your string. Eg: 1200"></field>
+                <field name="height_uploadV" type="text" default="724" class="" label="Video Height" description="Insert your height video (should insert Height = 50% Width) for your background video better.Don't include 'px' in your string. Eg: 600"></field>
+                <field name="setMinHeight" type="text" default="300" class="" label="Set min height" description="Insert your min height.Don't include 'px' in your string. Eg: 500 "></field>
+
+                <field name="ratio_vimeo" type="text" default="1.4" class="" label="Ratio video" description="Ratio video with parent div"></field>
+
+
+
+                <field name="showSancyBox" type="list" default="true" class="" label="Show Box" description="Show button Play, user clicked it to show box video or image">
+                    <option value="true">Enable</option>
+                    <option value="false">Disable</option>
+                </field>
+                <field name="linkSancyBox" type="text" default="http://vimeo.com/50834315" class="" label="LightBox Video/Images" description="Insert your video(or image) link of youtube, vimeo, metacafe, dailymotion, twitvid, twitpic, instagr "></field>
+                <field name="iconTitle" type="text" default="See the video" label="Custom Title Icon" description=""></field>
+
+                <field name="iconSancyBox" type="text" default="i" label="Custom tag icon" description="You can use tag i or img"></field>
+
+                <field name="classIconSancyBox" type="text" default="fa fa-play" label="Custom class icon" description="Add class you want to tag i or img you chose"></field>
+
+
+
+
+
+
+                <field type="media" name="background_image" class="zt-field ztmedia" label="MOD_ZT_PARALLAX_BGR_IMG_LBL" description="MOD_ZT_PARALLAX_BGR_IMG_DESC"></field>
+
+
+
+
+
+
+                <field type="editor" filter="safehtml" name="text_content" class="zt-field" label="MOD_ZT_PARALLAX_TEXT_LBL" description="MOD_ZT_PARALLAX_TEXT_DESC"></field>
+
+			</fieldset>
+            <fieldset name="video">
+
+                <field type="list" name="background_position" class="zt-field single" label="MOD_ZT_PARALLAX_BGR_POS_LBL" description="MOD_ZT_PARALLAX_BGR_POS_DESC">
+                    <option value="left top">JLEFT_TOP</option>
+                    <option value="left bottom">JLEFT_BOTTOM</option>
+                    <option value="center center">JCENTER_CENTER</option>
+                    <option value="center top">JCENTER_TOP</option>
+                    <option value="center bottom">JCENTER_BOTTOM</option>
+                    <option value="right top">JRIGHT_TOP</option>
+                    <option value="right bottom">JRIGHT_BOTTOM</option>
+                </field>
+                <field type="radio" name="parallax_background" class="zt-field" label="MOD_ZT_PARALLAX_PARALLAX_LBL" description="MOD_ZT_PARALLAX_PARALLAX_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field type="radio" name="repeat_background" class="zt-field" label="MOD_ZT_PARALLAX_REPEAT_LBL" description="MOD_ZT_PARALLAX_REPEAT_DESC">
+                    <option value="repeat">JYES</option>
+                    <option value="no-repeat">JNO</option>
+                </field>
+
+                <field name="text_color" type="color" default="#eee"
+                       label="MOD_ZT_PARALLAX_COLOR_LBL"
+                       description="MOD_ZT_PARALLAX_COLOR_DESC" />
+
+                <field type="text" name="top_padding" class="zt-field" label="MOD_ZT_PARALLAX_TOP_PADDING_LBL" description="MOD_ZT_PARALLAX_TOP_PADDING_DESC"></field>
+                <field type="text" name="bottom_padding" class="zt-field" label="MOD_ZT_PARALLAX_BOTTOM_PADDING_LBL" description="MOD_ZT_PARALLAX_BOTTOM_PADDING_DESC"></field>
+
+
+
+
+
+
+
+            </fieldset>
+			<fieldset name="advanced">
+				<field name="zt_parallax_layout" type="layout" default="default" class="zt-field" label="MOD_ZT_PARALLAX_LAYOUT_LBL" description="MOD_ZT_PARALLAX_LAYOUT_DECS"/>
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					class="zt-field"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

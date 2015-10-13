@@ -1,0 +1,179 @@
+/* =======================================
+    Style For Frontend
+======================================== */
+.zt-slideshow {
+    /* Animation */
+    /* Content Text */
+}
+.zt-slideshow .full-background {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.zt-slideshow .full-background-wrap {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.zt-slideshow .full-background-image img {
+    width: 100%;
+}
+.zt-slideshow .zt-slider-position {
+    color: #fff;
+    position: relative;
+    z-index: 9;
+}
+.zt-slideshow .ps-top-left,
+.zt-slideshow .ps-center-left,
+.zt-slideshow .ps-bottom-left {
+    text-align: left;
+}
+.zt-slideshow .ps-top-center,
+.zt-slideshow .ps-center-middle,
+.zt-slideshow .ps-bottom-center {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.zt-slideshow .ps-top-center:not(.element-embed),
+.zt-slideshow .ps-center-middle:not(.element-embed),
+.zt-slideshow .ps-bottom-center:not(.element-embed) {
+    max-width: 80%;
+}
+.zt-slideshow .ps-top-right,
+.zt-slideshow .ps-center-right,
+.zt-slideshow .ps-bottom-right {
+    text-align: right;
+}
+.zt-slideshow .ps-center-left,
+.zt-slideshow .ps-center-middle,
+.zt-slideshow .ps-center-right {
+    left: 0;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+}
+.zt-slideshow .ps-center-middle:not(.element-embed) {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.zt-slideshow .ps-bottom-left,
+.zt-slideshow .ps-bottom-center,
+.zt-slideshow .ps-bottom-right {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.zt-slideshow .ps-bottom-center:not(.element-embed) {
+    left: 50%;
+    transform: translateX(-50%);
+}
+.zt-slideshow .ps-bottom-center.element-embed {
+    left: -6px;
+}
+.zt-slideshow .animated {
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+.zt-slideshow .zt-slidershow-item.active .animated {
+    opacity: 1;
+}
+.zt-slideshow .content-text .small-title {
+    font-size: 15px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.zt-slideshow .content-text .title {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+.zt-slideshow .content-text .description {
+    font-size: 14px;
+    font-weight: 400;
+}
+.zt-slideshow .content-text .zt-readmore {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    background-color: transparent;
+}
+.zt-slideshow .content-text .zt-readmore:hover {
+    background-color: #000;
+    border-color: #000;
+}
+.zt-slideshow .zt-slideshow-wrap .bx-wrapper .bx-controls-direction a {
+    height: 70px;
+    margin-top: -35px;
+    width: 43px;
+    background: url("../../images/bg-slider-button.png") no-repeat 0 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.zt-slideshow .zt-slideshow-wrap .bx-wrapper .bx-controls-direction a.bx-prev {
+    border-radius: 0 3px 3px 0;
+    left: 0;
+}
+.zt-slideshow .zt-slideshow-wrap .bx-wrapper .bx-controls-direction a.bx-next {
+    border-radius: 3px 0 0 3px;
+    background-position: right top;
+    right: 0;
+}
+.zt-slideshow .zt-slideshow-wrap .bx-wrapper .bx-controls-direction a:hover {
+    background-color: #fdd200;
+}
+.zt-slideshow #html5-watermark,
+.zt-slideshow #html5-elem-data-box {
+    display: none !important;
+}
+.zt-slideshow .box-icon {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 32px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 20px;
+}
+.zt-slideshow .box-icon:hover {
+    color: #5eaf28;
+    border-color: #5eaf28;
+}
+.zt-slideshow .btn-volumn {
+    bottom: 0;
+    cursor: pointer;
+    font-size: 30px;
+    left: 15px;
+    position: absolute;
+    z-index: 99;
+}
+.zt-slideshow .zt-slideshow-loading {
+    min-height: 50px;
+    background-color: red;
+    background: url('../../bxslider/images/bx_loader.gif') center center no-repeat #ffffff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}

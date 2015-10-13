@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>mod_zt_slideshow</name>
+    <author>ZooTemplate</author>
+    <creationDate>Sep 16, 2015</creationDate>
+    <copyright>ZooTemplate.Com</copyright>
+    <authorEmail>support@zootemplate.com</authorEmail>
+    <authorUrl>www.zootemplate.com</authorUrl>
+    <version>2.0.5</version>
+    <description>MOD_ZT_SLIDESHOW_XML_DESCRIPTION</description>
+
+    <files>
+        <filename module="mod_zt_slideshow">mod_zt_slideshow.php</filename>
+        <filename>mod_zt_slideshow.xml</filename>
+        <filename>bootstrap.php</filename>
+        <folder>assets</folder>
+        <folder>formfields</folder>
+        <folder>helper</folder>
+        <folder>libraries</folder>
+        <folder>tmpl</folder>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.mod_zt_slideshow.ini</language>
+        <language tag="en-GB">en-GB/en-GB.mod_zt_slideshow.sys.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic" addfieldpath="/modules/mod_zt_slideshow/formfields">
+                <field name="slides" type="slides" label="" description="JFIELD_ACCESS_DESC" filter="raw"/>
+            </fieldset>
+            <fieldset name="advanced">
+                <field name="disable_mootools" type="list" default="1" label="Disable mootools" description="Mootools and bxSlider may the cause of server slowdown.">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="slider_width" type="text" default="auto" label="Slider Width" description="" size="10" />
+                <field name="slider_height" type="text" default="550px" label="Slider Height" description="" size="10" />
+                <field name="pagination" type="list" default="1" label="Show pagination" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="navigation" type="list" default="1" label="Show navigation" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="autoplay" type="list" default="1" label="Autoplay" description="">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="display_time" type="text" default="5000" label="Display time" description="" size="10" />
+                <field name="effects" type="list" default="" label="Effects" description="">
+                    <option value="none">none</option>
+                    <option value="linear">linear</option>
+                    <option value="swing">swing</option>
+                    <option value="easeInQuad">easeInQuad</option>
+                    <option value="easeOutQuad">easeOutQuad</option>
+                    <option value="easeInOutQuad">easeInOutQuad</option>
+                    <option value="easeInCubic">easeInCubic</option>
+                    <option value="easeOutCubic">easeOutCubic</option>
+                    <option value="easeInOutCubic">easeInOutCubic</option>
+                    <option value="easeInQuart">easeInQuart</option>
+                    <option value="easeOutQuart">easeOutQuart</option>
+                    <option value="easeInOutQuart">easeInOutQuart</option>
+                    <option value="easeInQuint">easeInQuint</option>
+                    <option value="easeOutQuint">easeOutQuint</option>
+                    <option value="easeInOutQuint">easeInOutQuint</option>
+                    <option value="easeInExpo">easeInExpo</option>
+                    <option value="easeOutExpo">easeOutExpo</option>
+                    <option value="easeInOutExpo">easeInOutExpo</option>
+                    <option value="easeInSine">easeInSine</option>
+                    <option value="easeOutSine">easeOutSine</option>
+                    <option value="easeInOutSine">easeInOutSine</option>
+                    <option value="easeInCirc">easeInCirc</option>
+                    <option value="easeOutCirc">easeOutCirc</option>
+                    <option value="easeInOutCirc">easeInOutCirc</option>
+                    <option value="easeInElastic">easeInElastic</option>
+                    <option value="easeOutElastic">easeOutElastic</option>
+                    <option value="easeInOutElastic">easeInOutElastic</option>
+                    <option value="easeInBack">easeInBack</option>
+                    <option value="easeOutBack">easeOutBack</option>
+                    <option value="easeInOutBack">easeInOutBack</option>
+                    <option value="easeInBounce">easeInBounce</option>
+                    <option value="easeOutBounce">easeOutBounce</option>
+                    <option value="easeInOutBounce">easeInOutBounce</option>
+                </field>
+                <field name="transition_duration" type="text" default="" label="Transition Duration" description="" size="10" />
+                <field name="mytextarea" type="textarea" default="default" label="Enter some html" description="" rows="10" cols="5" filter="raw"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

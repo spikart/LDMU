@@ -1,0 +1,184 @@
+/* =======================================
+    Style For Frontend
+======================================== */
+
+
+.zt-slideshow {
+  .full-background{
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .full-background-wrap{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .full-background-image {
+    img{
+      width: 100%;
+    }
+  }
+  .zt-slider-position{
+    color: #fff;
+    position: relative;
+    z-index: 9;
+  }
+
+  .ps-top-left, .ps-center-left, .ps-bottom-left{
+    text-align: left;
+  }
+  .ps-top-center, .ps-center-middle, .ps-bottom-center{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .ps-top-center:not(.element-embed), .ps-center-middle:not(.element-embed), .ps-bottom-center:not(.element-embed){
+    max-width: 80%;
+  }
+  .ps-top-right, .ps-center-right, .ps-bottom-right{
+    text-align: right;
+  }
+  .ps-center-left, .ps-center-middle, .ps-center-right{
+    left: 0;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+  }
+  .ps-center-middle:not(.element-embed){
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ps-bottom-left, .ps-bottom-center, .ps-bottom-right{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+  .ps-bottom-center:not(.element-embed){
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ps-bottom-center.element-embed{
+    left: -6px;
+  }
+  /* Animation */
+  .animated {
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    opacity: 0;
+  }
+  .zt-slidershow-item{
+    &.active {
+      .animated {
+        opacity: 1;
+      }
+    }
+  }
+
+  /* Content Text */
+  .content-text {
+    .small-title{
+      font-size: 15px;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+    }
+    .title{
+      font-size: 60px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #fff;
+    }
+    .description{
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .zt-readmore{
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 500;
+      border: 2px solid #fff;
+      padding: 10px 20px;
+      display: inline-block;
+      transition: all 0.3s ease 0s;
+      background-color: transparent;
+      &:hover{
+        background-color: #000;
+        border-color: #000;
+      }
+    }
+  }
+  .zt-slideshow-wrap {
+    .bx-wrapper {
+      .bx-controls-direction {
+        a{
+          height: 70px;
+          margin-top: -35px;
+          width: 43px;
+          background: url("../../images/bg-slider-button.png") no-repeat 0 0 rgba(0,0,0,0.5);
+          transition: all 0.3s ease 0s;
+          -webkit-transition: all 0.3s ease 0s;
+          -ms-transition: all 0.3s ease 0s;
+          -o-transition: all 0.3s ease 0s;
+          &.bx-prev{
+            border-radius: 0 3px 3px 0;
+            left: 0;
+          }
+          &.bx-next{
+            border-radius: 3px 0 0 3px;
+            background-position: right top;
+            right: 0;
+          }
+          &:hover{
+            background-color: #fdd200;
+          }
+        }
+      }
+    }
+  }
+  #html5-watermark, #html5-elem-data-box{
+    display: none !important;
+  }
+  .box-icon{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 32px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 20px;
+    &:hover{
+      color: #5eaf28;
+      border-color: #5eaf28;
+    }
+  }
+  .btn-volumn{
+    bottom: 0;
+    cursor: pointer;
+    font-size: 30px;
+    left: 15px;
+    position: absolute;
+    z-index: 99;
+  }
+  .zt-slideshow-loading{
+    min-height: 50px;
+    background-color: red;
+    background: url('../../bxslider/images/bx_loader.gif') center center no-repeat #ffffff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+  }
+}
