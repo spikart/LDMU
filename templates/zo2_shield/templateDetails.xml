@@ -39,9 +39,28 @@
         <position>position-14</position> 
         <position>position-15</position> 
         <position>position-16</position>
-        <position>position-17</position>   
+        <position>position-17</position>
+		<position>position1-17</position> 
+		<position>position2-17</position> 
+		<position>position3-17</position> 
+		<position>position4-17</position> 
+		<position>position5-17</position> 
+		<position>position6-17</position> 
+		<position>position7-17</position> 
+		<position>position8-17</position> 
+		<position>position9-17</position> 
+		<position>position10-17</position> 
+		<position>position11-17</position> 
         <position>position-18</position>
-        <position>position-19</position> 
+        <position>position-19</position>
+		<position>position1-19</position>
+		<position>position2-19</position>
+		<position>position3-19</position>
+		<position>position4-19</position>
+		<position>position5-19</position>
+		<position>position6-19</position>
+		<position>position7-19</position>
+		<position>position8-19</position>
         <position>position-20</position>      
         <position>position-21</position>   
         <position>position-22</position>   
@@ -83,6 +102,8 @@
         <position>footer1</position>
         <position>footer2</position>
         <position>footer_copyright</position>
+		<position>footer_copyright1</position>
+		<position>footer_copyright2</position>
 		<position>logo-long</position>
     </positions>
 

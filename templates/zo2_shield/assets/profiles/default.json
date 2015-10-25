@@ -2,7 +2,7 @@
     "profile": "default",
     "site_name": "",
     "site_slogan": "",
-    "footer_copyright": "Copyright \u00a9 LDMU-2015\r\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
+    "footer_copyright": "Copyright \u00a9 LDMU-2015\r\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ",
     "standard_logo": "",
     "retina_logo": "",
     "footer_gototop": "1",
@@ -127,7 +127,7 @@
                     "span": 11,
                     "offset": 0,
                     "customClass": "col-sm-12 col-xs-12 mobile-menu",
-                    "style": "zo2_menu",
+                    "style": "none",
                     "id": "sosial-top",
                     "visibility": {
                         "xs": true,
@@ -243,7 +243,7 @@
             "name": "Parallax",
             "customClass": "full-width",
             "id": "parallax",
-            "fullwidth": true,
+            "fullwidth": false,
             "visibility": {
                 "xs": true,
                 "sm": true,
@@ -408,6 +408,234 @@
         },
         {
             "type": "row",
+            "name": "Viddily",
+            "customClass": "full-width1",
+            "id": "",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position1-17",
+                    "position": "position1-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position2-17",
+                    "position": "position2-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position3-17",
+                    "position": "position3-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position4-17",
+                    "position": "position4-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position5-17",
+                    "position": "position5-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position6-17",
+                    "position": "position6-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "Viddily2",
+            "customClass": "full-width2",
+            "id": "",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position7-17",
+                    "position": "position7-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position8-17",
+                    "position": "position8-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position9-17",
+                    "position": "position9-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position10-17",
+                    "position": "position10-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position11-17",
+                    "position": "position11-17",
+                    "span": 2,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
             "name": "sevices",
             "customClass": "",
             "id": "sevices",
@@ -531,6 +759,165 @@
                     "offset": 0,
                     "customClass": "",
                     "style": "zo2_xhtml",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "type": "row",
+            "name": "Kolektyvy",
+            "customClass": "",
+            "id": "",
+            "fullwidth": false,
+            "visibility": {
+                "xs": true,
+                "sm": true,
+                "md": true,
+                "lg": true
+            },
+            "children": [
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position1-19",
+                    "position": "position1-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position2-19",
+                    "position": "position2-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position3-19",
+                    "position": "position3-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position4-19",
+                    "position": "position4-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position5-19",
+                    "position": "position5-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position6-19",
+                    "position": "position6-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position7-19",
+                    "position": "position7-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "position8-19",
+                    "position": "position8-19",
+                    "span": 3,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
                     "id": "",
                     "visibility": {
                         "xs": true,
@@ -893,10 +1280,46 @@
                     "type": "col",
                     "name": "footer-copyright",
                     "position": "footer-copyright",
-                    "span": 12,
+                    "span": 4,
                     "offset": 0,
                     "customClass": "",
                     "style": "none",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "footer_copyright1",
+                    "position": "footer_copyright1",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": true,
+                        "sm": true,
+                        "md": true,
+                        "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "modules",
+                    "type": "col",
+                    "name": "footer_copyright2",
+                    "position": "footer_copyright2",
+                    "span": 4,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
                     "id": "",
                     "visibility": {
                         "xs": true,
@@ -922,9 +1345,9 @@
         "link_hover": "",
         "bottom1": "",
         "bottom2": "",
-        "footer": "",
-        "bg_image": "",
-        "bg_pattern": "templates\\zo2_shield\\assets\\zo2\\images\\background-patterns\/pattern13_black.png"
+        "footer": "#a89e9e",
+        "bg_image": "images\/note01.png",
+        "bg_pattern": "templates\\zo2_shield\\assets\\zo2\\images\\background-patterns\/dimension_@2X.png"
     },
     "menu_hover_type": "hover",
     "menu_animation": "zoom",
@@ -987,7 +1410,7 @@
     "non_responsive_layout": "0",
     "enable_style_switcher": "0",
     "enable_sticky_menu": "1",
-    "tracking_code": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
+    "tracking_code": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ",
     "combine_css": "0",
     "combine_js": "0",
     "development_mode": "1",
