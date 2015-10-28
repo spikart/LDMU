@@ -2,7 +2,7 @@
     "profile": "default",
     "site_name": "",
     "site_slogan": "",
-    "footer_copyright": "Copyright \u00a9 LDMU-2015\r\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ",
+    "footer_copyright": "Copyright \u00a9 LDMU-2015\r\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",
     "standard_logo": "",
     "retina_logo": "",
     "footer_gototop": "1",
@@ -543,6 +543,24 @@
             },
             "children": [
                 {
+                    "jdoc": "",
+                    "type": "col",
+                    "name": "(none)",
+                    "position": "",
+                    "span": 1,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": false,
+                        "sm": false,
+                        "md": false,
+                        "lg": false
+                    },
+                    "children": []
+                },
+                {
                     "jdoc": "modules",
                     "type": "col",
                     "name": "position7-17",
@@ -629,6 +647,24 @@
                         "sm": true,
                         "md": true,
                         "lg": true
+                    },
+                    "children": []
+                },
+                {
+                    "jdoc": "",
+                    "type": "col",
+                    "name": "(none)",
+                    "position": "",
+                    "span": 1,
+                    "offset": 0,
+                    "customClass": "",
+                    "style": "",
+                    "id": "",
+                    "visibility": {
+                        "xs": false,
+                        "sm": false,
+                        "md": false,
+                        "lg": false
                     },
                     "children": []
                 }
@@ -1410,7 +1446,7 @@
     "non_responsive_layout": "0",
     "enable_style_switcher": "0",
     "enable_sticky_menu": "1",
-    "tracking_code": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ",
+    "tracking_code": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",
     "combine_css": "0",
     "combine_js": "0",
     "development_mode": "1",
